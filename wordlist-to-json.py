@@ -1,8 +1,10 @@
 import hashlib
 import json
 
-wordlist_file = "rockyou.txt"
-output_file = "output.json"
+num1 = input('file number:')
+
+wordlist_file = f"small_rockyou_{num1}.txt"
+output_file = f"small_rockyou_{num1}.json"
 
 hashed_words = []
 
